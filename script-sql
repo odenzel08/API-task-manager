@@ -1,0 +1,15 @@
+CREATE TABLE tarefasdb.usuario (
+	id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tarefas (
+	id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    titulo VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    status VARCHAR(20) default 'Pendente',
+    data_criacao DATE NOT NULL,
+    id_usuario INT,
+    FOREIGN KEY (id_usuario) REFERENCES usuario (id)
+);
