@@ -1,10 +1,10 @@
-# 🧠 Task Manager API – Spring MVC
+# Task Manager API – Spring MVC
 
 API REST para gerenciamento de tarefas, desenvolvida utilizando o padrão **MVC (Model-View-Controller)** com **Spring Boot**, conectada a um banco de dados **MySQL** via **JPA/Hibernate**.
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Este projeto tem como objetivo aplicar o padrão de arquitetura **MVC** com boas práticas em uma aplicação Java usando **Spring Framework**, separando claramente:
 
@@ -14,7 +14,7 @@ Este projeto tem como objetivo aplicar o padrão de arquitetura **MVC** com boas
 
 ---
 
-## 🚀 Funcionalidades da API
+## Funcionalidades da API
 
 - Criar, listar, atualizar e deletar tarefas e usuarios
 - Buscar tarefas e usuarios por id
